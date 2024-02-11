@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package demo;
 
-option go_package = "github.com/EvgeniyBudaev/go-proto-grpc/proto";
+option go_package = "github.com/EvgeniyBudaev/go-demo-grpc/proto";
 
 message User {
   string name = 1;  // имя пользователя
